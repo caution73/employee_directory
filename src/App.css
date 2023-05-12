@@ -94,7 +94,7 @@ h4 {
 
 #headerTitle {
   flex: 1;
-  margin-right: 3vw;
+  margin-right: 1vw;
 }
 
 #backCarrot {
@@ -117,7 +117,7 @@ h5 {
 
 .liInfo {
   flex: 1;
-  margin-right: 11vw;
+  margin-right: 8vw;
 }
 
 .empName {
@@ -129,5 +129,5 @@ h5 {
 
 .selectedEmp {
   flex: 1;
-  margin-right: 12vw;
+  margin-right: 9vw;
 }
