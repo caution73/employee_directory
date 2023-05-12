@@ -57,6 +57,14 @@ body {
 
 .empListItem {
   border: 2px solid red;
+  height: 12vh;
+}
+
+.empListItem > * {
+  margin: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .employeePage {
@@ -84,11 +92,42 @@ h4 {
   margin: 0;
 }
 
+#headerTitle {
+  flex: 1;
+  margin-right: 3vw;
+}
+
 #backCarrot {
   text-decoration: none;
-  left: 20vw;
+  
 }
 
 h5 {
   margin: 0;
+}
+
+.pic {
+  background-image: url("../public/default_profile_pic.PNG");
+  background-size: cover;
+  height: 10vh;
+  width: 11vh;
+  margin-left: 3vw;
+  
+}
+
+.liInfo {
+  flex: 1;
+  margin-right: 11vw;
+}
+
+.empName {
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.selectedEmp {
+  flex: 1;
+  margin-right: 12vw;
 }
