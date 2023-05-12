@@ -7,7 +7,7 @@ export default function EmployeePage(props){
     console.log(id)
     return(
         <div className="employeePage">
-            <Header title="Employee"/>
+            <Header title="Employee" showBack="true"/>
             <EmployeeInfo employee={props.employees[id]}/>
         </div>
     )
