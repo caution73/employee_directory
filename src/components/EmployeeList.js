@@ -4,9 +4,8 @@ export default function EmployeeList(props) {
   return (
     <div className="empList">
       {props.employees.map((employee, i) => {
-        {
-          employee.id = i;
-        }
+        employee.id = i;
+
         return <EmployeeListItem employee={employee} />;
       })}
     </div>
